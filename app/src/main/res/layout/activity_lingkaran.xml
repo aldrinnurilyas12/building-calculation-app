@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    tools:context="com.example.buildspace_app.Lingkaran">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/lingkar"
+        android:layout_marginTop="-18dp"
+        android:layout_height="200dp"/>
+    <EditText
+        android:id="@+id/konstanta"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_semibold"
+        android:background="@drawable/border_radius"
+        android:textColor="#4F46E5"
+        android:textColorHint="#6366F1"
+        android:layout_width="370dp"
+        android:layout_gravity="center"
+        android:layout_height="55dp"
+        android:hint="Masukkan Konstanta Phi"/>
+
+    <EditText
+        android:id="@+id/jari1"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="Masukkan Jari-jari 1"
+        android:textAlignment="center"
+        android:background="@drawable/border_radius"
+        android:textColor="#4F46E5"
+        android:layout_gravity="center"
+        android:textColorHint="#6366F1"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/jari2"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:hint="Masukkan Jari-jari 2"
+        android:textAlignment="center"
+        android:background="@drawable/border_radius"
+        android:textColor="#4F46E5"
+        android:textColorHint="#6366F1"
+        android:textSize="22dp" />
+
+    <Button
+        android:onClick="tombolhitung"
+        android:layout_width="270dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_height="60dp"
+        android:backgroundTint="#2742D6"
+        android:text="Hitung">
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil luas Lingkaran adalah..."
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"></TextView>
+
+    <TextView
+        android:id="@+id/texthasil"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hasil"></TextView>
+
+
+
+
+
+</LinearLayout>

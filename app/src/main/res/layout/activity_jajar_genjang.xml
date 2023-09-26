@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    tools:context="com.example.buildspace_app.JajarGenjang">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/genjn"
+        android:layout_marginTop="-28dp"
+        android:layout_height="200dp">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/alas"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/border_radius"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="Masukkan Alas"
+        android:textAlignment="center"
+        android:textColor="#4F46E5"
+        android:textColorHint="#6366F1"
+
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/tinggi"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border_radius"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="Masukkan Tinggi"
+        android:textAlignment="center"
+        android:textColor="#4F46E5"
+        android:textColorHighlight="#4F46E5"
+        android:textColorHint="#6366F1"
+        android:textColorLink="#4F46E5"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="270dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:onClick="tombolhitung"
+        android:text="Hitung"
+        android:backgroundTint="#2742D6"
+        android:textColor="@color/white"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil luas Jajar genjang adalah..."
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_semibold"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"></TextView>
+
+    <TextView
+        android:id="@+id/texthasil"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Hasil"></TextView>
+
+
+
+
+
+</LinearLayout>

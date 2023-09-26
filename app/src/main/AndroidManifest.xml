@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.buildspace_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="spatial_Calculations_app v.1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat">
+        <activity
+            android:name="com.example.buildspace_app.JajarGenjang"
+            android:exported="true" />
+        <activity
+            android:name="com.example.buildspace_app.Trapesium"
+            android:exported="true" />
+        <activity
+            android:name="com.example.buildspace_app.Lingkaran"
+            android:exported="true" />
+        <activity
+            android:name="com.example.buildspace_app.Segitiga"
+            android:exported="true" />
+        <activity
+            android:name="com.example.buildspace_app.BujurSangkar"
+            android:exported="true" />
+        <activity
+            android:name="com.example.buildspace_app.PersegiPanjang"
+            android:exported="true" />
+        <activity
+            android:name="com.example.buildspace_app.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
